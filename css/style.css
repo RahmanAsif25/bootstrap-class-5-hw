@@ -1,0 +1,73 @@
+h1{
+	/*text-align: center;*/
+	/*color: blue;*/
+
+}
+
+.banner{
+	background-image: url(../images/nature.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.slider{
+	background-color: rgba(1, 1, 1, 0.7);
+	color: white;
+	padding: 70px;
+}
+.slider h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.slider p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.slider button{
+	margin-bottom: 40px;
+}
+.custom_ind {
+    bottom: 30px;
+}
+
+.custom_ind [data-bs-target] {
+    width:  13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
+.c-previous {
+    left: 89%;
+    bottom: 5%;
+}
+.c-next {
+    bottom: 5%;
+    right: 2%;
+}
+
+.c-previous, .c-next {
+    top: 85%;
+    width: 5%;
+ }
+
+ .c-i{
+    left: auto;
+    bottom: 60%;
+    right: 82%;
+    display: block;
+    top: 25%;
+    }
+
+  .c-i [data-bs-target] {
+  	width: 13px;
+  	height: 13px;
+  	/*border-radius: 50%;*/
+  	background-color: yellow;
+  }
+
+
+ 
